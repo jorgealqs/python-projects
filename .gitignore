@@ -5,6 +5,10 @@ venv/
 pip-log.txt
 pip-delete-this-directory.txt
 
+venv1/
+.env1
+*.venv1
+
 # Configuración de PyCharm
 .idea/
 
@@ -27,7 +31,7 @@ __pycache__/
 *.qmlc
 
 # Dependencias instaladas
-requirements.txt
+# requirements.txt
 
 # Archivos de paquetes y distribución
 dist/
