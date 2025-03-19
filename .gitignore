@@ -1,0 +1,35 @@
+# Archivos y carpetas de entorno virtual
+venv/
+.env
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Configuración de PyCharm
+.idea/
+
+# Archivos de caché y compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+*.swp
+*.swo
+.DS_Store
+
+# Configuración específica de PyQt6
+*.qrc
+*.pyc
+*.qmlc
+
+# Dependencias instaladas
+requirements.txt
+
+# Archivos de paquetes y distribución
+dist/
+build/
+*.egg-info/
