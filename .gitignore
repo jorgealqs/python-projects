@@ -37,3 +37,6 @@ __pycache__/
 dist/
 build/
 *.egg-info/
+
+data/
+password-manager/data/
