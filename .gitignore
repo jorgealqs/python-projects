@@ -40,3 +40,6 @@ build/
 
 data/
 password-manager/data/
+
+
+my_session.session
