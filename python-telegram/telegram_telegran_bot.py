@@ -20,7 +20,7 @@ async def main():
     print(me.stringify())
 
     # Enviar un mensaje a ti mismo como prueba
-    group_username = 'english_learning39'
+    group_username = os.getenv('GROUP_USERNAME')
     await client.send_message(group_username, 'Con esto funcionando puedo mandar la información al canal todos los dias seria super bueno')
 
 with client:
