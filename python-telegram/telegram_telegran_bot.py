@@ -21,7 +21,7 @@ async def main():
 
     # Enviar un mensaje a ti mismo como prueba
     group_username = os.getenv('GROUP_USERNAME')
-    await client.send_message(group_username, 'Con esto funcionando puedo mandar la información al canal todos los dias seria super bueno')
+    await client.send_message(group_username, 'English Learning Test')
 
 with client:
     client.loop.run_until_complete(main())
